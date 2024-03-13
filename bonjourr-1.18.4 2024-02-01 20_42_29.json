@@ -1,0 +1,245 @@
+{
+  "about": {
+    "browser": "chrome",
+    "version": "19.1.1"
+  },
+  "showall": false,
+  "lang": "en",
+  "dark": "system",
+  "favicon": "",
+  "tabtitle": "",
+  "greeting": "",
+  "pagegap": 1,
+  "pagewidth": 1600,
+  "time": true,
+  "main": true,
+  "dateformat": "eu",
+  "background_blur": 15,
+  "background_bright": 0.8,
+  "background_type": "unsplash",
+  "quicklinks": true,
+  "textShadow": 0.2,
+  "announcements": "major",
+  "review": 31,
+  "cssHeight": 99.96875,
+  "css": "",
+  "hide": {},
+  "linkstyle": "large",
+  "linknewtab": false,
+  "linksrow": 6,
+  "linksppifhi": {
+    "_id": "linksppifhi",
+    "icon": "https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png",
+    "order": 6,
+    "title": "ClassRoom",
+    "url": "https://classroom.google.com/u/1/?pli=1"
+  },
+  "linkspjkbrq": {
+    "_id": "linkspjkbrq",
+    "icon": "https://github.githubassets.com/apple-touch-icon-144x144.png",
+    "order": 4,
+    "title": "GitHub",
+    "url": "https://github.com/"
+  },
+  "linksmmbcao": {
+    "_id": "linksmmbcao",
+    "icon": "https://chat.openai.com/apple-touch-icon.png",
+    "order": 1,
+    "title": "Chat GPT",
+    "url": "https://chat.openai.com/"
+  },
+  "linksjbnkoe": {
+    "_id": "linksjbnkoe",
+    "icon": "https://img.utdstc.com/icon/ff0/a5e/ff0a5ec61bc652cce9761f4e68089610662e76fcfea8c84fa813e10d3a9ed3d7:200",
+    "order": 3,
+    "title": "Udemy",
+    "url": "https://www.udemy.com/"
+  },
+  "linksiekqmp": {
+    "_id": "linksiekqmp",
+    "order": 9,
+    "title": "excalidraw",
+    "url": "https://excalidraw.com/",
+    "parent": 0
+  },
+  "linksekphfb": {
+    "_id": "linksekphfb",
+    "icon": "https://groww.in/groww-logo-150x50.svg",
+    "order": 8,
+    "title": "Groww",
+    "url": "https://groww.in/stocks/user/explore"
+  },
+  "linksehdgfq": {
+    "_id": "linksehdgfq",
+    "order": 10,
+    "title": "Discord",
+    "url": "https://discord.com/channels/@me",
+    "parent": 0
+  },
+  "linksdmrddd": {
+    "_id": "linksdmrddd",
+    "icon": "https://www.youtube.com/s/desktop/32c4e480/img/favicon_144x144.png",
+    "order": 0,
+    "title": "Youtube",
+    "url": "https://www.youtube.com/"
+  },
+  "linkschkcqa": {
+    "_id": "linkschkcqa",
+    "icon": "https://leetcode.com/favicon.ico",
+    "order": 5,
+    "title": "LeetCode",
+    "url": "https://leetcode.com/contest/"
+  },
+  "linkscfcakj": {
+    "_id": "linkscfcakj",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/1/19/WhatsApp_logo-color-vertical.svg",
+    "order": 2,
+    "title": "Whatsapp",
+    "url": "https://web.whatsapp.com/"
+  },
+  "linksajbaef": {
+    "_id": "linksajbaef",
+    "icon": "https://cdn.codechef.com/favicon.ico",
+    "order": 7,
+    "title": "Code Chef",
+    "url": "https://www.codechef.com/dashboard"
+  },
+  "linktabs": {
+    "active": false,
+    "selected": 0,
+    "titles": [
+      ""
+    ]
+  },
+  "clock": {
+    "ampm": false,
+    "analog": false,
+    "face": "none",
+    "seconds": false,
+    "size": 1,
+    "style": "round",
+    "timezone": "auto"
+  },
+  "unsplash": {
+    "collection": "",
+    "every": "hour",
+    "lastCollec": "evening",
+    "pausedImage": null,
+    "time": 1710074272966
+  },
+  "weather": {
+    "ccode": "IN",
+    "city": "Udupi",
+    "fcHigh": 15,
+    "fcLast": 1699371000,
+    "forecast": "auto",
+    "geolocation": "precise",
+    "lastCall": 1699339311,
+    "lastState": {
+      "description": "overcast clouds",
+      "feels_like": 38.35,
+      "icon_id": 804,
+      "sunrise": 1699318595,
+      "sunset": 1699360358,
+      "temp": 31.51,
+      "temp_max": 31.51
+    },
+    "moreinfo": "none",
+    "provider": "",
+    "temperature": "actual",
+    "unit": "metric"
+  },
+  "notes": {
+    "align": "left",
+    "on": false,
+    "opacity": 0.1,
+    "text": null,
+    "width": 40
+  },
+  "searchbar": {
+    "on": true,
+    "opacity": 0.1,
+    "engine": "google",
+    "newtab": false,
+    "placeholder": "",
+    "request": "",
+    "suggestions": true
+  },
+  "quotes": {
+    "on": true,
+    "author": false,
+    "frequency": "day",
+    "last": 1710044235185,
+    "type": "classic",
+    "userlist": ""
+  },
+  "font": {
+    "size": "14",
+    "family": "",
+    "system": false,
+    "weight": "400",
+    "weightlist": []
+  },
+  "move": {
+    "layouts": {
+      "double": {
+        "grid": [
+          [
+            "time",
+            "."
+          ],
+          [
+            "main",
+            "."
+          ],
+          [
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {}
+      },
+      "single": {
+        "grid": [
+          [
+            "time"
+          ],
+          [
+            "main"
+          ],
+          [
+            "searchbar"
+          ],
+          [
+            "quicklinks"
+          ],
+          [
+            "quotes"
+          ]
+        ],
+        "items": {}
+      },
+      "triple": {
+        "grid": [
+          [
+            ".",
+            "time",
+            "."
+          ],
+          [
+            ".",
+            "main",
+            "."
+          ],
+          [
+            ".",
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {}
+      }
+    },
+    "selection": "single"
+  }
+}
