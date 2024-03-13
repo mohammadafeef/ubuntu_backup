@@ -60,6 +60,9 @@ fi
 read -p "Want to install VLC player? (y/n): " input
 if [ "$input" = "y" ]; then
      sudo snap install vlc
+     sudo rm /var/cache/fontconfig/*
+rm ~/.cache/fontconfig/*
+fc-cache -r
 fi
 
 echo "Finished Ubuntu setup"
