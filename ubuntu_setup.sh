@@ -18,7 +18,7 @@ sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://b
 
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 
-sudo nala install brave-browser && sudo snap remove firefox
+sudo apt install brave-browser && sudo snap remove firefox
 fi
 
 read -p "Want to install Android Studio? (y/n): " input
