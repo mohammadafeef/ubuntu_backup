@@ -1,7 +1,7 @@
 {
   "about": {
     "browser": "chrome",
-    "version": "19.1.1"
+    "version": "20.1.1"
   },
   "showall": false,
   "lang": "en",
@@ -21,16 +21,18 @@
   "textShadow": 0.2,
   "announcements": "major",
   "review": 31,
-  "cssHeight": 99.96875,
   "css": "",
   "hide": {},
   "linkstyle": "large",
+  "linktitles": true,
+  "linkbackgrounds": true,
   "linknewtab": false,
   "linksrow": 6,
   "linksppifhi": {
     "_id": "linksppifhi",
     "icon": "https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png",
     "order": 6,
+    "parent": "default",
     "title": "ClassRoom",
     "url": "https://classroom.google.com/u/1/?pli=1"
   },
@@ -38,48 +40,67 @@
     "_id": "linkspjkbrq",
     "icon": "https://github.githubassets.com/apple-touch-icon-144x144.png",
     "order": 4,
+    "parent": "default",
     "title": "GitHub",
     "url": "https://github.com/"
   },
+  "linksocieda": {
+    "_id": "linksocieda",
+    "order": 12,
+    "parent": "default",
+    "title": "Mail",
+    "url": "https://mail.google.com/mail/u/0/#inbox"
+  },
   "linksmmbcao": {
     "_id": "linksmmbcao",
-    "icon": "https://chat.openai.com/apple-touch-icon.png",
+    "icon": "https://cdn-icons-png.flaticon.com/512/12222/12222589.png",
     "order": 1,
+    "parent": "default",
     "title": "Chat GPT",
     "url": "https://chat.openai.com/"
+  },
+  "linkskkrkhj": {
+    "_id": "linkskkrkhj",
+    "order": 13,
+    "parent": "default",
+    "title": "Paint",
+    "url": "https://pixlr.com/express/"
   },
   "linksjbnkoe": {
     "_id": "linksjbnkoe",
     "icon": "https://img.utdstc.com/icon/ff0/a5e/ff0a5ec61bc652cce9761f4e68089610662e76fcfea8c84fa813e10d3a9ed3d7:200",
     "order": 3,
+    "parent": "default",
     "title": "Udemy",
     "url": "https://www.udemy.com/"
   },
   "linksiekqmp": {
     "_id": "linksiekqmp",
     "order": 9,
+    "parent": 0,
     "title": "excalidraw",
-    "url": "https://excalidraw.com/",
-    "parent": 0
+    "url": "https://excalidraw.com/"
   },
   "linksekphfb": {
     "_id": "linksekphfb",
     "icon": "https://groww.in/groww-logo-150x50.svg",
     "order": 8,
+    "parent": "default",
     "title": "Groww",
     "url": "https://groww.in/stocks/user/explore"
   },
   "linksehdgfq": {
     "_id": "linksehdgfq",
     "order": 10,
+    "parent": 0,
     "title": "Discord",
-    "url": "https://discord.com/channels/@me",
-    "parent": 0
+    "url": "https://discord.com/channels/@me"
   },
   "linksdmrddd": {
     "_id": "linksdmrddd",
     "icon": "https://www.youtube.com/s/desktop/32c4e480/img/favicon_144x144.png",
     "order": 0,
+    "parent": "default",
     "title": "Youtube",
     "url": "https://www.youtube.com/"
   },
@@ -87,6 +108,7 @@
     "_id": "linkschkcqa",
     "icon": "https://leetcode.com/favicon.ico",
     "order": 5,
+    "parent": "default",
     "title": "LeetCode",
     "url": "https://leetcode.com/contest/"
   },
@@ -94,45 +116,57 @@
     "_id": "linkscfcakj",
     "icon": "https://upload.wikimedia.org/wikipedia/commons/1/19/WhatsApp_logo-color-vertical.svg",
     "order": 2,
+    "parent": "default",
     "title": "Whatsapp",
     "url": "https://web.whatsapp.com/"
   },
   "linksaofpab": {
     "_id": "linksaofpab",
     "order": 11,
+    "parent": 0,
     "title": "Canva",
-    "url": "https://www.canva.com/",
-    "parent": 0
+    "url": "https://www.canva.com/"
   },
   "linksajbaef": {
     "_id": "linksajbaef",
     "icon": "https://cdn.codechef.com/favicon.ico",
     "order": 7,
+    "parent": "default",
     "title": "Code Chef",
     "url": "https://www.codechef.com/dashboard"
   },
-  "linktabs": {
-    "active": false,
-    "selected": 0,
-    "titles": [
-      ""
-    ]
+  "linkgroups": {
+    "groups": [
+      "default"
+    ],
+    "on": true,
+    "pinned": [],
+    "selected": "default",
+    "synced": []
   },
   "clock": {
+    "face": "none",
     "ampm": false,
     "analog": false,
-    "face": "none",
     "seconds": false,
     "size": 1,
     "style": "round",
     "timezone": "auto"
   },
+  "analogstyle": {
+    "background": "#fff2",
+    "border": "#ffff",
+    "face": "none",
+    "hands": "modern",
+    "shape": "round"
+  },
+  "worldclocks": [],
   "unsplash": {
     "collection": "",
     "every": "hour",
-    "lastCollec": "night",
+    "lastCollec": "day",
     "pausedImage": null,
-    "time": 1711835261234
+    "time": 1727768268664
   },
   "weather": {
     "ccode": "IN",
@@ -157,8 +191,8 @@
     "unit": "metric"
   },
   "notes": {
-    "align": "left",
     "on": false,
+    "align": "left",
     "opacity": 0.1,
     "text": null,
     "width": 40
@@ -176,7 +210,7 @@
     "on": true,
     "author": false,
     "frequency": "day",
-    "last": 1711833579718,
+    "last": 1727768268663,
     "type": "classic",
     "userlist": ""
   },

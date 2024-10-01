@@ -3,7 +3,6 @@
 echo "Welcome to Ubuntu setup"
 
 sudo apt update && sudo apt upgrade 
-sudo apt install nala && sudo nala update && sudo nala 
 
 read -p "Want to install VSCode? (y/n): " input
 if [ "$input" = "y" ]; then
@@ -12,11 +11,13 @@ fi
 
 read -p "Want to install Brave? (y/n): " input
 if [ "$input" = "y" ]; then
-	sudo nala install curl
+	sudo apt install curl
 
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+
+sudo apt update
 
 sudo apt install brave-browser && sudo snap remove firefox
 fi
@@ -28,12 +29,12 @@ fi
 
 read -p "Want to install Vim? (y/n): " input
 if [ "$input" = "y" ]; then
-    sudo nala install vim
+    sudo apt install vim
 fi
 
 read -p "Want to remove libre office? (y/n): " input
 if [ "$input" = "y" ]; then
-    sudo nala remove -y libreoffice*
+    sudo apt remove -y libreoffice*
 fi
 
 read -p "Want to install Discord? (y/n): " input
@@ -43,18 +44,18 @@ fi
 
 read -p "Want to install git? (y/n): " input
 if [ "$input" = "y" ]; then
-    sudo nala install git
+    sudo apt install git
 fi
 
 read -p "Want to install java? (y/n): " input
 if [ "$input" = "y" ]; then
-    sudo nala install default-jdk
-    sudo nala install default-jre
+    sudo apt install default-jdk
+    sudo apt install default-jre
 fi
 
 read -p "Want to install Tweak? (y/n): " input
 if [ "$input" = "y" ]; then
-    sudo nala install gnome-tweaks
+    sudo apt install gnome-tweaks
 fi
 
 read -p "Want to install VLC player? (y/n): " input
