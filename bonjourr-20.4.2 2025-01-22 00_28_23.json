@@ -1,7 +1,7 @@
 {
   "about": {
     "browser": "chrome",
-    "version": "20.1.1"
+    "version": "20.4.2"
   },
   "showall": false,
   "lang": "en",
@@ -14,9 +14,9 @@
   "time": true,
   "main": true,
   "dateformat": "eu",
-  "background_blur": 15,
+  "background_blur": 6,
   "background_bright": 0.8,
-  "background_type": "unsplash",
+  "background_type": "local",
   "quicklinks": true,
   "textShadow": 0.2,
   "announcements": "major",
@@ -28,9 +28,16 @@
   "linkbackgrounds": true,
   "linknewtab": false,
   "linksrow": 6,
+  "linksrialar": {
+    "_id": "linksrialar",
+    "order": 14,
+    "parent": "default",
+    "title": "drive",
+    "url": "https://drive.google.com/drive/u/0/home"
+  },
   "linksppifhi": {
     "_id": "linksppifhi",
-    "icon": "https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW8VNR7lV5ZxYsUA4xeNTZd_yV7m-u2TakW7T43okb9QnfSR1rm2Dq3Wu6rpBrNJvSubI&usqp=CAU",
     "order": 6,
     "parent": "default",
     "title": "ClassRoom",
@@ -59,6 +66,13 @@
     "title": "Chat GPT",
     "url": "https://chat.openai.com/"
   },
+  "linksklkmoq": {
+    "_id": "linksklkmoq",
+    "order": 16,
+    "parent": "default",
+    "title": "Dev Comm",
+    "url": "https://dev.to/"
+  },
   "linkskkrkhj": {
     "_id": "linkskkrkhj",
     "order": 13,
@@ -77,9 +91,16 @@
   "linksiekqmp": {
     "_id": "linksiekqmp",
     "order": 9,
-    "parent": 0,
+    "parent": "default",
     "title": "excalidraw",
     "url": "https://excalidraw.com/"
+  },
+  "linksfrqmab": {
+    "_id": "linksfrqmab",
+    "order": 15,
+    "parent": "default",
+    "title": "linkedin",
+    "url": "https://www.linkedin.com/feed/"
   },
   "linksekphfb": {
     "_id": "linksekphfb",
@@ -92,7 +113,7 @@
   "linksehdgfq": {
     "_id": "linksehdgfq",
     "order": 10,
-    "parent": 0,
+    "parent": "default",
     "title": "Discord",
     "url": "https://discord.com/channels/@me"
   },
@@ -123,7 +144,7 @@
   "linksaofpab": {
     "_id": "linksaofpab",
     "order": 11,
-    "parent": 0,
+    "parent": "default",
     "title": "Canva",
     "url": "https://www.canva.com/"
   },
@@ -145,13 +166,13 @@
     "synced": []
   },
   "clock": {
-    "face": "none",
     "ampm": false,
+    "ampmlabel": false,
     "analog": false,
     "seconds": false,
-    "size": 1,
-    "style": "round",
-    "timezone": "auto"
+    "size": 0.75,
+    "timezone": "auto",
+    "worldclocks": false
   },
   "analogstyle": {
     "background": "#fff2",
@@ -163,14 +184,32 @@
   "worldclocks": [],
   "unsplash": {
     "collection": "",
-    "every": "hour",
+    "every": "pause",
     "lastCollec": "day",
-    "pausedImage": null,
-    "time": 1727768268664
+    "pausedImage": {
+      "url": "https://images.unsplash.com/photo-1637710133669-3dd2c9513041?ixid=M3w4ODczOHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyOTg3MDUzMnw&ixlib=rb-4.0.3&w=1920&h=1080&dpr=1&auto=format&q=75&fit=crop",
+      "city": "San Luis Obispo",
+      "color": "#a6c0c0",
+      "country": "United States",
+      "download_link": "https://unsplash.com/photos/3iOji4l1R00/download?ixid=M3w4ODczOHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyOTg3MDUzMnw",
+      "exif": {
+        "aperture": "6.3",
+        "exposure_time": "1/250",
+        "focal_length": "50.0",
+        "iso": 100,
+        "make": "NIKON CORPORATION",
+        "model": "NIKON D7000",
+        "name": "NIKON CORPORATION, NIKON D7000"
+      },
+      "name": "Electron Photography",
+      "link": "https://unsplash.com/photos/a-sandy-beach-with-plants-growing-out-of-the-sand-3iOji4l1R00",
+      "username": "electronphotography"
+    },
+    "time": 1729873623044
   },
   "weather": {
+    "city": "mangalore",
     "ccode": "IN",
-    "city": "Udupi",
     "fcHigh": 15,
     "fcLast": 1699371000,
     "forecast": "auto",
@@ -207,10 +246,10 @@
     "suggestions": true
   },
   "quotes": {
-    "on": true,
+    "on": false,
     "author": false,
     "frequency": "day",
-    "last": 1727768268663,
+    "last": 1737570609840,
     "type": "classic",
     "userlist": ""
   },
@@ -220,6 +259,11 @@
     "system": false,
     "weight": "400",
     "weightlist": []
+  },
+  "supporters": {
+    "closed": true,
+    "enabled": true,
+    "month": 1
   },
   "move": {
     "layouts": {
@@ -253,9 +297,6 @@
           ],
           [
             "quicklinks"
-          ],
-          [
-            "quotes"
           ]
         ],
         "items": {}
